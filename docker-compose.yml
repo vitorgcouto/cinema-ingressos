@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: minha_senha_segura
+      POSTGRES_PASSWORD: senha123
       POSTGRES_DB: cinema
     ports:
       - "5432:5432"
